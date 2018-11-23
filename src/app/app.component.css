@@ -1,0 +1,16 @@
+header{
+	padding: 20px;
+	background-color: pink;
+	margin-bottom: 10px;
+
+
+
+}
+
+.title{
+	color:steelblue;
+	box-shadow: 5px 5px 2px indigo;
+	border-radius: 20px;
+	text-shadow: 5px 5px 10px steelblue;
+}
+

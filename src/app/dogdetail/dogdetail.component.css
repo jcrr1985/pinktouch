@@ -1,0 +1,12 @@
+.cardTitletoCenter{
+	display: flex;
+	justify-content: center;
+}
+
+h3{
+	font-family: 'Pacifico', cursive;
+}
+
+img{
+	border: 10px groove indigo;
+}

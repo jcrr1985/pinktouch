@@ -1,0 +1,20 @@
+<div class="container-fluid canvasBG" fxLayout="col">
+
+	<div fxFlex = "30">
+	   <mat-list fxFlex class="candidates">
+	     <mat-list-item class="card candidates"  (click)="sendDog(k)" *ngFor="let k of dogsArray">
+	       <img matListAvatar src={{k.image}} alt={{k.name}}/>
+	       <h2> {{k.name}} </h2>
+	     </mat-list-item>
+	   </mat-list>
+
+	</div>	
+
+	<app-dogdetail [dogInThatMoment]="iter" fxFlex = "50"></app-dogdetail>	
+
+</div>
+
+
+
+
+

@@ -1,0 +1,31 @@
+.canvasBG{
+	background-color: #fef;
+}
+
+.candidates{
+	margin:20px 0;
+
+}
+
+.mat-list .mat-list-item.mat-list-item-with-avatar{
+	height:150px;
+}
+
+.mat-list .mat-list-item .mat-list-avatar{
+	width: 120px;
+	height: 120px;
+
+}
+
+h2{
+	font-family: 'Pacifico', cursive;
+	padding: 20px;
+	margin-left: 30px;
+
+}
+
+h2:hover{
+border-bottom: 3px solid indigo;
+
+}
+

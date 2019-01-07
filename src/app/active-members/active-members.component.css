@@ -1,5 +1,7 @@
 .canvasBG{
 	background-color: #fef;
+	display: flex;
+	justify-content: space-around;
 }
 
 .candidates{
@@ -28,4 +30,35 @@ h2:hover{
 border-bottom: 3px solid indigo;
 
 }
+
+.rightBio{
+	display: flex;
+	flex-direction: column;
+}
+
+mat-toolbar{
+	background-color: #FFC0CB;
+	color: darkblue;
+	padding-top: 15px;
+		box-shadow: 5px 5px 2px indigo;
+
+	text-shadow: 5px 5px 10px steelblue;
+
+}
+
+
+mat-toolbar h3{
+	color:darkblue;
+	box-shadow: 5px 5px 2px indigo;
+	border-radius: 20px;
+	text-shadow: 5px 5px 10px steelblue;
+
+}
+
+
+
+
+
+
+
 

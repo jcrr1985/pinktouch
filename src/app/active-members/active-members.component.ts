@@ -12,33 +12,39 @@ export class ActiveMembersComponent implements OnInit {
 dogsArray = [
 	{
 		image: "../assets/perrito2.jpg",
-		name: "bobby"
+		name: "Bobby",
+		bio:" Hola, soy Bobby y tengo 4 años"	
 	},
 		{
 		image: "../assets/perrito3.jpg",
-		name: "dylan"
+		name: "Dylan",
+		bio: "Hey, soy Bobby y tengo 7 años"
 	},
 		{
 		image: "../assets/perrito4.jpg",
-		name: "michael"
+		name: "Michael",
+		bio: "Hello, soy Michael y tengo 8 años"	
 	},
 		{
 		image: "../assets/perrito5.jpg",
-		name: "lisa"
+		name: "Lisa",
+		bio: "Bon Jour, soy Lisa y tengo 5 años" 
 	},
 		{
 		image: "../assets/perrito6.jpg",
-		name: "avril"
+		name: "Avril",
+		bio: "Hola, soy Avril y tengo 9 años"
 	},
 		{
 		image: "../assets/perrito7.jpg",
-		name: "bono"
+		name: "Shemp, Larry y Moe",
+		bio: "Ciao, somos Shemp, Larry y Moe y tenemos 3 meses"	
 	}
 ];
 
 
 
-iter = this.dogsArray[0]
+iter;
 
   constructor() { }
 

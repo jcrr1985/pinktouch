@@ -1,20 +1,29 @@
 <div class="container">
-  <div fxFlex *ngIf="dogInThatMoment">
-    <mat-card>
-      <mat-card-header class="cardTitletoCenter">
-        <mat-card-title>
-          <h3>{{dogInThatMoment.name | uppercase}}</h3>
-        </mat-card-title>
-      </mat-card-header>
-      <img mat-card-image src={{dogInThatMoment.image}} alt={{dogInThatMoment.name}}>
-<!--       <mat-card-content>
-  <p>{{dogInThatMoment.description}}
-  </p>
-</mat-card-content> -->
-      <mat-card-actions>
-<!--         <button mat-button>LIKE</button>
-<button mat-button>SHARE</button> -->
-      </mat-card-actions>
-    </mat-card>
+
+    <div fxFlex *ngIf="dogInThatMoment">
+      <mat-card>
+        <mat-card-header class="cardTitletoCenter">
+          <mat-card-title>
+            <h3>{{dogInThatMoment.name | uppercase}}</h3>
+          </mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src={{dogInThatMoment.image}} alt={{dogInThatMoment.name}}>
+  <!--       <mat-card-content>
+    <p>{{dogInThatMoment.description}}
+    </p>
+  </mat-card-content> -->
+        <mat-card-actions>
+  <!--         <button mat-button>LIKE</button>
+  <button mat-button>SHARE</button> -->
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div fxFlex *ngIf="!dogInThatMoment">
+      <h3 class="infoSpan"> Para leer sobre mi, haz click al lado :D </h3>
+    
+    </div>
+
   </div>
+
 

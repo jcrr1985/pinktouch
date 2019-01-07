@@ -10,3 +10,21 @@ h3{
 img{
 	border: 10px groove indigo;
 }
+
+.infoSpan{
+	margin:200px 0;
+	
+	animation: oscilate 10s ease infinite alternate
+	
+}
+
+
+@keyframes oscilate{
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{
+		transform: rotate(360deg);
+	}
+}

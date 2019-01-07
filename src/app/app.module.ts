@@ -11,6 +11,7 @@ import 'hammerjs';
 import { DogdetailComponent } from './dogdetail/dogdetail.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
+import { DogBioComponent } from './dog-bio/dog-bio.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
     AppComponent,
     ActiveMembersComponent,
     DogdetailComponent,
+    DogBioComponent,
   ],
   imports: [
     BrowserModule,
